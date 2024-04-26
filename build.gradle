@@ -26,6 +26,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-devtools:3.2.5'
+	implementation 'com.auth0:java-jwt:4.3.0'
 
 	compileOnly 'org.projectlombok:lombok'
 
