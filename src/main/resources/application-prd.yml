@@ -1,0 +1,19 @@
+application:
+    title: API Prd Pizzeria
+    version: v1.0
+server:
+    port: 8091
+spring:
+    banner:
+        location: classpath:/banner-prd.txt
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/pizzeria?createDatabaseIfNotExist=true
+        username: root
+        password: Sgr9cl4v3s
+    jpa:
+        database: MYSQL
+        generate-ddl: true
+        hibernate:
+            ddl-auto: update
+        show-sql: true
